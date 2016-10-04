@@ -1,10 +1,9 @@
-var input = $("#not-a-real-id")
-
+var input = $("#input")
 
 input.keydown(function(e) {	
-
+  console.log ("entered")
   if (e.keyCode == "13") {
-    console.log ("entered")
+   
     var valueToSave = input.val();
    
    
