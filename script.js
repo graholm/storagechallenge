@@ -1,4 +1,4 @@
-var input = $("#input")
+var input = $("#value-input")
 
 input.keydown(function(e) {	
   console.log ("entered")
