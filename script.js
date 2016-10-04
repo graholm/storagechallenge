@@ -7,10 +7,10 @@ input.keydown(function(e) {
     var valueToSave = input.val();
    
    
-    storeValue("gracesVariable", valueToSave);
+    storeValue("Thingy", valueToSave);
   }
 })
 
-onNewValue("gracesVariable", function(value) {
+onNewValue("Thingy", function(value) {
   $("#value-output").html(value)
 })
