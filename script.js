@@ -1,13 +1,13 @@
 var input = $("#value-input")
 
 input.keydown(function(e) {	
-  console.log ("entered")
   if (e.keyCode == "13") {
+    console.log ("entered")
    
     var valueToSave = input.val();
    
    
-    storeValue("gracesVariable", value);
+    storeValue("gracesVariable", valueToSave);
   }
 })
 
