@@ -14,5 +14,3 @@ input.keydown(function(e) {
 onNewValue("grace", function(value) {
   $("#value-output").html(value)
 })
-
-console.log (grace)
