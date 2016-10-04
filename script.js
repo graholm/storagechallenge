@@ -2,15 +2,17 @@ var input = $("#value-input")
 
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
-    console.log ("entered")
+  
    
     var valueToSave = input.val();
    
    
-    storeValue("Thingy", valueToSave);
+    storeValue("grace", valueToSave);
   }
 })
 
-onNewValue("Thingy", function(value) {
+onNewValue("grace", function(value) {
   $("#value-output").html(value)
 })
+
+console.log (grace)
